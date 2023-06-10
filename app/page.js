@@ -1,5 +1,6 @@
 import styles from './page.module.css'
 import Header from '@/componenets/header/header'
+import Footer from '@/componenets/footer/footer'
 
 export default function Home() {
   return (
@@ -61,6 +62,7 @@ export default function Home() {
           </h2>
         </a>
       </div>
+      <Footer />
     </main>
   )
 }
