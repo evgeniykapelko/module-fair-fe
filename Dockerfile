@@ -1,5 +1,9 @@
 FROM node:16.17.0-alpine3.15
 
+EXPOSE 3000
+
+ENV PORT 3000
+
 WORKDIR /home/nextjs/app
 COPY package.json package.json
 RUN npm install
